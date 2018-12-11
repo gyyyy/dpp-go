@@ -37,7 +37,7 @@ func (c *Composite) RemoveComponent(i int) {
 	c.component = append(c.component[:i], c.component[i+1:]...)
 }
 
-func (c *Composite) GetChild(i int) Component {
+func (c *Composite) Child(i int) Component {
 	if i < 0 || i >= len(c.component) {
 		return nil
 	}
