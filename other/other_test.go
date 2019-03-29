@@ -4,8 +4,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/gyyyy/dpp/other/x08nullobject"
-	"github.com/gyyyy/dpp/other/x09objectpool"
+	"github.com/gyyyy/dpp-go/other/x08nullobject"
+	"github.com/gyyyy/dpp-go/other/x09objectpool"
 )
 
 func TestNullObject(t *testing.T) {

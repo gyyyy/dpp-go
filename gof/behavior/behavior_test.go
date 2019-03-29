@@ -5,17 +5,17 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/gyyyy/dpp/gof/behavior/x01chainofresponsibility"
-	"github.com/gyyyy/dpp/gof/behavior/x02command"
-	"github.com/gyyyy/dpp/gof/behavior/x03interpreter"
-	"github.com/gyyyy/dpp/gof/behavior/x04iterator"
-	"github.com/gyyyy/dpp/gof/behavior/x05mediator"
-	"github.com/gyyyy/dpp/gof/behavior/x06memento"
-	"github.com/gyyyy/dpp/gof/behavior/x07observer"
-	"github.com/gyyyy/dpp/gof/behavior/x08state"
-	"github.com/gyyyy/dpp/gof/behavior/x09strategy"
-	"github.com/gyyyy/dpp/gof/behavior/x10templatemethod"
-	"github.com/gyyyy/dpp/gof/behavior/x11visitor"
+	"github.com/gyyyy/dpp-go/gof/behavior/x01chainofresponsibility"
+	"github.com/gyyyy/dpp-go/gof/behavior/x02command"
+	"github.com/gyyyy/dpp-go/gof/behavior/x03interpreter"
+	"github.com/gyyyy/dpp-go/gof/behavior/x04iterator"
+	"github.com/gyyyy/dpp-go/gof/behavior/x05mediator"
+	"github.com/gyyyy/dpp-go/gof/behavior/x06memento"
+	"github.com/gyyyy/dpp-go/gof/behavior/x07observer"
+	"github.com/gyyyy/dpp-go/gof/behavior/x08state"
+	"github.com/gyyyy/dpp-go/gof/behavior/x09strategy"
+	"github.com/gyyyy/dpp-go/gof/behavior/x10templatemethod"
+	"github.com/gyyyy/dpp-go/gof/behavior/x11visitor"
 )
 
 func TestChainOfResponsibility(t *testing.T) {

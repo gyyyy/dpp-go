@@ -2,14 +2,14 @@
 package x04prototype
 
 type Prototype interface {
-	Clone() interface{}
+	Clone() *ConcretePrototype
 }
 
 type ConcretePrototype struct {
 	Name string
 }
 
-func (p *ConcretePrototype) Clone() interface{} {
+func (p *ConcretePrototype) Clone() *ConcretePrototype {
 	tmp := *p
 	return &tmp
 }

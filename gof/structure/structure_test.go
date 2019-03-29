@@ -3,13 +3,13 @@ package structure
 import (
 	"testing"
 
-	"github.com/gyyyy/dpp/gof/structure/x01adapter"
-	"github.com/gyyyy/dpp/gof/structure/x02bridge"
-	"github.com/gyyyy/dpp/gof/structure/x03composite"
-	"github.com/gyyyy/dpp/gof/structure/x04decorator"
-	"github.com/gyyyy/dpp/gof/structure/x05facade"
-	"github.com/gyyyy/dpp/gof/structure/x06flyweight"
-	"github.com/gyyyy/dpp/gof/structure/x07proxy"
+	"github.com/gyyyy/dpp-go/gof/structure/x01adapter"
+	"github.com/gyyyy/dpp-go/gof/structure/x02bridge"
+	"github.com/gyyyy/dpp-go/gof/structure/x03composite"
+	"github.com/gyyyy/dpp-go/gof/structure/x04decorator"
+	"github.com/gyyyy/dpp-go/gof/structure/x05facade"
+	"github.com/gyyyy/dpp-go/gof/structure/x06flyweight"
+	"github.com/gyyyy/dpp-go/gof/structure/x07proxy"
 )
 
 func TestAdapter(t *testing.T) {

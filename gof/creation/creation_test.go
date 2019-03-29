@@ -3,11 +3,11 @@ package creation
 import (
 	"testing"
 
-	"github.com/gyyyy/dpp/gof/creation/x01abstractfactory"
-	"github.com/gyyyy/dpp/gof/creation/x02builder"
-	"github.com/gyyyy/dpp/gof/creation/x03factorymethod"
-	"github.com/gyyyy/dpp/gof/creation/x04prototype"
-	"github.com/gyyyy/dpp/gof/creation/x05singleton"
+	"github.com/gyyyy/dpp-go/gof/creation/x01abstractfactory"
+	"github.com/gyyyy/dpp-go/gof/creation/x02builder"
+	"github.com/gyyyy/dpp-go/gof/creation/x03factorymethod"
+	"github.com/gyyyy/dpp-go/gof/creation/x04prototype"
+	"github.com/gyyyy/dpp-go/gof/creation/x05singleton"
 )
 
 func TestAbstractFactory(t *testing.T) {
@@ -28,7 +28,7 @@ func TestFactoryMethod(t *testing.T) {
 
 func TestPrototype(t *testing.T) {
 	prototype1 := x04prototype.NewConcretePrototype("test1")
-	prototype2 := prototype1.Clone().(*x04prototype.ConcretePrototype)
+	prototype2 := prototype1.Clone()
 	if prototype2.Name = "test2"; prototype1.Name == prototype2.Name {
 		t.Fail()
 	}
