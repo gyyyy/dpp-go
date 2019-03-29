@@ -28,7 +28,7 @@ func TestFactoryMethod(t *testing.T) {
 
 func TestPrototype(t *testing.T) {
 	prototype1 := x04prototype.NewConcretePrototype("test1")
-	prototype2 := prototype1.Clone()
+	prototype2 := prototype1.Clone().(*x04prototype.ConcretePrototype)
 	if prototype2.Name = "test2"; prototype1.Name == prototype2.Name {
 		t.Fail()
 	}
